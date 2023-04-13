@@ -1,4 +1,3 @@
-import { userRef, useEffect } from "react";
 import { styled } from "@mui/system";
 import MessagesHeader from "./MessagesHeader";
 import { connect } from "react-redux";
