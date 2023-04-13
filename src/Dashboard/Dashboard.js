@@ -6,7 +6,7 @@ import Messenger from "./Messenger/Messenger";
 import AppBar from "./AppBar/AppBar";
 import { logout } from "../shared/utils/auth";
 import { connect } from "react-redux";
-import { getActions } from "../store/actions/authActions";
+import { getActions } from "../store/actions/authAction";
 import { connectWithSocketServer } from "../realtimeCommunication/socketConnection";
 import Room from "./Room/Room";
 
