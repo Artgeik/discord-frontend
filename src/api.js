@@ -2,7 +2,7 @@ import axios from "axios";
 import { logout } from "./shared/utils/auth";
 
 const apiClient = axios.create({
-    baseURL:'https://disc-backend.onrender.com/:3002',
+    baseURL:'https://disc-backend.onrender.com:10000',
     timeout:1000
 });
 
