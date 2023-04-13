@@ -23,10 +23,10 @@ const Dashboard = ({ setUserDetails, isUserInRoom }) => {
     if (!userDetails) {
       logout();
     } else {
-      setUserDetails(JSON.parse(userDetails));
+        setUserDetails(JSON.parse(userDetails));
       connectWithSocketServer(JSON.parse(userDetails));
     }
-  }, []);
+  }, [setUserDetails]);
 
   return (
     <Wrapper>
