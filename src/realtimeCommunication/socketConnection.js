@@ -14,7 +14,7 @@ let socket = null;
 export const connectWithSocketServer = (userDetails) => {
   const jwtToken = userDetails.token;
 
-  socket = io("https://disc-backend.onrender.com:443", {
+  socket = io("https://disc-backend.onrender.com:10000", {
     auth: {
       token: jwtToken,
     },
