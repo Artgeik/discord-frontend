@@ -14,7 +14,7 @@ let socket = null;
 export const connectWithSocketServer = (userDetails) => {
   const jwtToken = userDetails.token;
 
-  socket = io("http://localhost:3002", {
+  socket = io("https://discord-back.com/:10000", {
     auth: {
       token: jwtToken,
     },
