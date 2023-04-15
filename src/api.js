@@ -3,7 +3,7 @@ import { logout } from "./shared/utils/auth";
 
 const apiClient = axios.create({
     baseURL:'https://disc-backend.onrender.com',
-    timeout:1000
+    timeout:4000
 });
 
 apiClient.interceptors.request.use((config)=>{
