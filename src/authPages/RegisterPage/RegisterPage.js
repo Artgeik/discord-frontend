@@ -54,6 +54,7 @@ const RegisterPage = ({register}) => {
         handleRegister={handleRegister}
         isFormValid={isFormValid}
       />
+      <h5>email doesn't have to be a real one, it just needs to be valid and password can be anything between 4-12 characters.</h5>
     </AuthBox>
   );
 };

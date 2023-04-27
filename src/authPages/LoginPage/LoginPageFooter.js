@@ -6,7 +6,7 @@ import { Tooltip } from "@mui/material";
 const LoginPageFooter = ({ handleLogin, isFormValid }) => {
 
   const getFormNotValidMessage=()=>{
-    return "Enter the correct email and password. the password should contain between 6 to 12 characters";
+    return "Enter the correct email and password. the password should contain between 4 to 12 characters";
   }
 
   const getFormValidMessage=()=>{

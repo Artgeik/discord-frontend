@@ -15,7 +15,7 @@ const isUsernameValid=(username)=>{
 }
 
 const validatePassword=(password)=>{
-    return password.length>6 && password.length<12;
+    return password.length>3 && password.length<12;
 }
 
 export const validateMail=(mail)=>{

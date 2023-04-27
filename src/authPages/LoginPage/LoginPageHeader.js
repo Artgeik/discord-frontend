@@ -5,7 +5,7 @@ const LoginPageHeader = () => {
     return (
         <>
         <Typography variant="h5" sx={{color:"white"}}>  Welcome back </Typography>
-        <Typography sx={{color:"#b9bbbe"}}>   we are happy that you are with us </Typography>
+        <Typography sx={{color:"#b9bbbe"}}>   always happy to see you again. </Typography>
         </>
     );
 };
